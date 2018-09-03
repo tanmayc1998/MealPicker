@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1076859700122",
+    "firebase_url": "https://mealpicker-7f8f1.firebaseio.com",
+    "project_id": "mealpicker-7f8f1",
+    "storage_bucket": "mealpicker-7f8f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076859700122:android:7f34b31645c0b44f",
+        "android_client_info": {
+          "package_name": "com.example.tanmay.mealpicker2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076859700122-des56ac0bunclgkthbaigc0e3itb40ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tanmay.mealpicker2",
+            "certificate_hash": "375cf4136f7d92a6eaf8c2be7bdc4c19e54fa657"
+          }
+        },
+        {
+          "client_id": "1076859700122-crf8oj9ac8r196fa3nbu6rmnks5gbqgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR3ccdMGPOHtVuU_XD9bxiAeLj6f7glZA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076859700122-crf8oj9ac8r196fa3nbu6rmnks5gbqgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

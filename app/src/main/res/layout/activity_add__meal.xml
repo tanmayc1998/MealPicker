@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Meal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/dishname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="100px"
+            android:layout_marginTop="200px"
+            android:ems="10"
+            android:hint="Dish"
+            android:inputType="text|textPersonName" />
+
+        <EditText
+            android:id="@+id/restname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="100px"
+            android:ems="10"
+            android:hint="Restaurant"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="100px"
+            android:ems="10"
+            android:hint="Price"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/add_it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:text="Add Meal" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
